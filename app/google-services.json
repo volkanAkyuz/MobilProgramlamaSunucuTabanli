@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "422350151115",
+    "project_id": "mobilprogramlamaodev-volkan",
+    "storage_bucket": "mobilprogramlamaodev-volkan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422350151115:android:3a132de99d9bbd651b2a4e",
+        "android_client_info": {
+          "package_name": "com.example.volkanakyuz_vizeodev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422350151115-71cnnkjbmd4ek03rrgombnqi2qjfb6e3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGDUv4UnEQUbZf7IXrw2gEu0ang3NL6Zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422350151115-71cnnkjbmd4ek03rrgombnqi2qjfb6e3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
