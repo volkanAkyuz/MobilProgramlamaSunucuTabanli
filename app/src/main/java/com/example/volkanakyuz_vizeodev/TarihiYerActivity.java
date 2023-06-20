@@ -25,12 +25,8 @@ public class TarihiYerActivity extends AppCompatActivity {
     FirebaseFirestore va_db;
     ArrayList<String> va_menuArrayAd;
     ArrayList<String> va_menuArrayAciklama;
-
     FirebaseStorage va_storage;
-
     StorageReference va_storageReference;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +42,6 @@ public class TarihiYerActivity extends AppCompatActivity {
         va_db = FirebaseFirestore.getInstance();
         va_storage = FirebaseStorage.getInstance();
         va_storageReference = va_storage.getReference();
-
 
         DocumentReference va_reference = va_db.collection("TarihiMekanlar").document("A7iuoizeZHmLXpIEaRYK");
         va_reference.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
